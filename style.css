@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    margin:0;
+    font-family: verdana, Arial, sans-serif;
+    background-image:url(../images-cirkus/stjerne-til-baggrund.jpg);
+}
+
+h1 {
+    font-size: 75 px;
+    margin: 0;
+}
+h1 a {
+    color:#FC0;
+    text-decoration: none;
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #CA1F25;
+    font-size: 22px;
+    margin: 0 0 30px;
+    text-transform: uppercase;
+}
+p {
+    font-size:14px;
+}
+
+#wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+header, nav {
+    display:flex;
+    align-items: flex-end;
+    background-repeat:no-repeat;
+}
+header {
+    background-image:url(../images-cirkus/banner_header.png);
+    background-color: red;
+    height: 250px;
+    justify-content: center;
+}
+nav {
+    background-image:url(../images-cirkus/banner_header_nederst.png);
+    background-color: #CA1F25;
+    height: 100px;
+    padding: 10px;
+    justify-content: flex-end;
+}
+main {
+    background-color: #FC0;
+    min-height: 500px;
+    padding: 35px 10 px 0;
+}
+footer {
+    padding: 1px;
+    background-color: #CAF125;
+    color: #FC0;
+    text-align: center;
+}
+nav a {
+    color: #FBEC4B;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav a:hoover {
+    color: #575757;
+}
+
+article {
+    display: flex;
+    height: 100%;
+}
+article section {
+    width: 38%;
+    margin: 1%
+}
+article figure {
+    width: 58%;
+    margin: 1%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+figure img {
+    margin-bottom: 15px;
+}
+figure img:nth-last-child(-n+2) {
+    margin-bottom: 0;
+}
+footer p {
+    line-height: 1em;
+    margin: 0.5em 0;
+}
